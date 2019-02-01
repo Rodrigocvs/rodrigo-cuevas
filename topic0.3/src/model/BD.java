@@ -36,7 +36,7 @@ public class BD implements Connectiondb {
     }
     @Override
     public void connect() {
-        System.out.println("Coneccion exitosa");
+        System.out.println("Conexion exitosa");
     }
 
 }
