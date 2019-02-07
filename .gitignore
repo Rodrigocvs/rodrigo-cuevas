@@ -9,5 +9,4 @@
 *.iml\
 *.iws\
 .DS_Store\
-/out/\
-/target/}
+}
