@@ -1,4 +1,5 @@
 *.iml\
 *.iws\
 .DS_Store*.iml\
+.idea/
 
