@@ -1,15 +1,15 @@
 package impl;
 
-import iConexion.iConexion;
+import iConexion.Conexion;
 
-public class ConexionMySQL implements iConexion {
+public class ConexionMySQLImp implements Conexion {
 
     private String host;
     private String port;
     private String user;
     private String password;
 
-    public ConexionMySQL(){
+    public ConexionMySQLImp(){
         this.host = "localhost";
         this.password = "3302";
         this.port = "root";

@@ -1,16 +1,16 @@
 package topic01;
 
-public class conexion {
+public class Conexion {
 
-        private static conexion instance;
+        private static Conexion instance;
 
         // private area builder, to not use operator new
         private conexion() {
         }
 
-        public static conexion getInstance() {
+        public static Conexion getInstance() {
             if (instance == null) {
-                instance = new conexion();
+                instance = new Conexion();
             }
             return instance;
         }

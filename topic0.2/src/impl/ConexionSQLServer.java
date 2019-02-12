@@ -1,14 +1,14 @@
 package impl;
 
-import iConexion.iConexion;
+import iConexion.Conexion;
 
-public class ConexionSQLServer implements iConexion {
+public class ConexionSQLServerImp implements iConexion {
     private String host;
     private String port;
     private String user;
     private String password;
 
-    public ConexionSQLServer(){
+    public ConexionSQLServerImp(){
         this.host = "localhost";
         this.password = "3301";
         this.port = "root";

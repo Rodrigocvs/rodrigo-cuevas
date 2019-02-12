@@ -1,7 +1,7 @@
 package topic02;
 
 import iConexion.factoryAbs;
-import iConexion.iConexion;
+import iConexion.Conexion;
 
 public class App {
     public static void main(String[] args) {

@@ -1,14 +1,14 @@
 package impl;
-import iConexion.iConexion;
+import iConexion.Conexion;
 
-public class ConexionOracle implements iConexion {
+public class ConexionOracleImp implements Conexion {
 
         private String host;
         private String port;
         private String user;
         private String password;
 
-        public ConexionOracle(){
+        public ConexionOracleImp(){
             this.host = "localhost";
             this.password = "3301";
             this.port = "root";

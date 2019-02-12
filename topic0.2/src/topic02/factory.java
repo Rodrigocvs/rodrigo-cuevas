@@ -1,6 +1,6 @@
 package topic02;
 
-import iConexion.iConexion;
+import iConexion.Conexion;
 import impl.ConexionEmpty;
 import impl.ConexionMySQL;
 import impl.ConexionOracle;

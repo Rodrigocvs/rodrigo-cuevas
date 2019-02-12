@@ -1,8 +1,8 @@
 package impl;
 
-import iConexion.iConexion;
+import iConexion.Conexion;
 
-public class ConexionEmpty implements  iConexion{
+public class ConexionEmptyImp implements  iConexion{
 
     @Override
     public void connect() {

@@ -9,18 +9,18 @@ import impl.ConexionSQLServer;
 public class ConexionBDFactory implements factoryAbs {
 
     @Override
-    public iConexion.iConexion getBD (String motor) {
+    public iConexion.Conexion getBD (String motor) {
         if (motor == null) {
-            return new ConexionEmpty();
+            return new ConexionEmptyImp();
         }
         if (motor.equalsIgnoreCase("MySQL")) {
-            return new ConexionMySQL();
+            return new ConexionMySQLImp();
         } else if (motor.equalsIgnoreCase("Oracle")) {
-            return new ConexionOracle();
+            return new ConexionOracleImp();
         } else if (motor.equalsIgnoreCase("SQLServer")) {
-            return new ConexionSQLServer();
+            return new ConexionSQLServerImp();
         }
-        return new ConexionEmpty();
+        return new ConexionEmptyImp();
     }
 
 
